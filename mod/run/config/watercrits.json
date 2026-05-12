@@ -1,0 +1,6 @@
+{
+  "blockNormalAttacks": true,
+  "blockSweepAttacks": true,
+  "minCooldownForCrit": 0.9,
+  "blockedMessage": "Only critical hits are allowed while in water!"
+}

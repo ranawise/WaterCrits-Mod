@@ -1,0 +1,20 @@
+# ─────────────────────────────────────────────
+#  WaterCrits Plugin — Configuration
+# ─────────────────────────────────────────────
+
+# Block non-critical melee attacks when the attacker is in water.
+block-normal-attacks: true
+
+# Block sweep attacks (AoE) when the attacker is in water.
+block-sweep-attacks: true
+
+# Minimum attack-cooldown fraction (0.0–1.0) needed for a hit to qualify
+# as a critical. 0.9 mirrors vanilla behaviour (requires ~90 % full bar).
+min-cooldown-for-crit: 0.9
+
+# Allow players with the 'watercrits.bypass' permission to ignore restrictions.
+allow-bypass: false
+
+# Message shown to the player when their attack is blocked.
+# Supports '&' colour codes. Set to '' to disable.
+blocked-message: '&cOnly critical hits are allowed while in water!'
