@@ -1,5 +1,5 @@
 name: WaterCrits
-version: '${version}'
+version: '1.0.0'
 main: com.watercrits.plugin.WaterCritsPlugin
 api-version: '1.21'
 description: Disables normal and sweep attacks in water; only critical hits apply.
