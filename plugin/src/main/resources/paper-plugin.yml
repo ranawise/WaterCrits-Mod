@@ -1,0 +1,20 @@
+name: WaterCrits
+version: '${version}'
+main: com.watercrits.plugin.WaterCritsPlugin
+api-version: '1.21'
+description: Disables normal and sweep attacks in water; only critical hits apply.
+authors: [ WaterCrits ]
+
+commands:
+  watercrits:
+    description: Reload the WaterCrits configuration.
+    aliases: [ wc ]
+    permission: watercrits.admin
+
+permissions:
+  watercrits.admin:
+    description: Access to WaterCrits admin commands.
+    default: op
+  watercrits.bypass:
+    description: Bypass WaterCrits attack restrictions.
+    default: false
